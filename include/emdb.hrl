@@ -1,8 +1,6 @@
-%%-------------------------------------------------------------------
-%% This file is part of EMDB - Erlang MDB API
-%%
-%% Copyright (c) 2012 by Aleph Archives. All rights reserved.
-%%
+%% -*- mode: erlang; tab-width: 4; indent-tabs-mode: 1; st-rulers: [70] -*-
+%% vim: ts=4 sw=4 ft=erlang noet
+
 %%-------------------------------------------------------------------
 %% Redistribution and use in source and binary forms, with or without
 %% modification, are permitted only as authorized by the OpenLDAP
@@ -24,13 +22,3 @@
 %% ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
 %% OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 %%-------------------------------------------------------------------
-
-
-%% Environment Flags
--define(MDB_FIXEDMAP,   16#01).
--define(MDB_NOSUBDIR,   16#02).
--define(MDB_NOSYNC,     16#10000).
--define(MDB_RDONLY,     16#20000).
--define(MDB_NOMETASYNC, 16#40000).
--define(MDB_WRITEMAP,   16#80000).
--define(MDB_MAPASYNC,   16#100000).
